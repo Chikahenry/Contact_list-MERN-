@@ -7,6 +7,9 @@ const app = express();
 //connect to Database
 connectDB();
 
+// Init middleware
+app.use(express.json({ extended: false }));
+
 app.get('/', (req, res) => res.json({ msg: 'Hello World' }));
 
 // instantiate API routes

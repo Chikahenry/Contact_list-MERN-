@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://Contact-List-User:0031734825Ch.@cluster0.pk7lz.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://Contact-List-User:0031734825Ch.@cluster0.pk7lz.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "JwtSecret"
 }
